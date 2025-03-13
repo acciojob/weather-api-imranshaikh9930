@@ -25,7 +25,7 @@ function getCurrentWeather() {
 
       // Update the content of the weatherData div
       const weatherDataDiv = document.getElementById("weatherData");
-
+	
     //   console.log(weatherDataDiv);
       weatherDataDiv.textContent = `Current weather in ${city}: ${weatherDescription}`;
     })
